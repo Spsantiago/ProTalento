@@ -1,0 +1,27 @@
+div {
+    margin: 0;
+    padding: 40px;
+    background-color: #a9e3fb;
+    border: #bcb9b5 solid 3px;
+}
+ .chico{
+ padding: 30px;
+}
+.grande {
+    padding: 40px;
+}
+
+.container {
+    position: static;
+    display: flex;
+    padding: 0;
+    border:none;
+}
+.container .mediano {
+    width: 50vw;
+    padding: 40px;
+}
+
+.container .margin-abajo{
+    padding: 50px;
+}
