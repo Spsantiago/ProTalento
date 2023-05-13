@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "FontAwesome";
+  src: url("fontawesome-webfont.woff");
+}
+html {
+  font-family: arial, sans-serif;
+}
+
+.img {
+  width: 350px;
+  align-items: center;
+}
+
+.img-grid {
+  width: 18px;
+  padding: 5px;
+}
+
+.img-foto {
+  padding: 0;
+  margin: 0;
+  width: 35px;
+}
+
+.img-lupa {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+  height: 46px;
+}
+
+.button-nav {
+  border-radius: 50px;
+}
+
+button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 0px 6px;
+  justify-content: flex-end;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  margin: 6px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.img-central {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  border-radius: 5px;
+  width: 40vw;
+  position: relative;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  z-index: 3;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+}
+
+.input-class {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.button-input {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 4px;
+}
+
+.button-input-int {
+  margin: 10px;
+}
+
+.footer {
+  position: relative;
+  background: #f2f2f2;
+}
+
+.footer-section {
+  display: flex;
+  border-bottom: 1px solid #dadce0;
+}
+
+.section-mid {
+  padding: 50px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+.lista {
+  color: #70757a;
+  padding: 8px;
+}
+
+/*# sourceMappingURL=style.css.map */
