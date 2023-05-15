@@ -1,7 +1,3 @@
-@font-face {
-  font-family: "FontAwesome";
-  src: url("fontawesome-webfont.woff");
-}
 html {
   font-family: arial, sans-serif;
 }
@@ -27,7 +23,7 @@ html {
   align-items: center;
   padding-right: 13px;
   margin-top: -5px;
-  height: 46px;
+  height: 20px;
 }
 
 .button-nav {
@@ -114,17 +110,31 @@ a:hover {
 }
 
 .section-mid {
-  padding: 50px;
+  padding: 80px;
 }
 
 ul {
   display: flex;
   justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 .lista {
   color: #70757a;
   padding: 8px;
+}
+
+.input-class {
+  border: none;
+  width: 100%;
+  background-color: transparent;
+  word-wrap: break-word;
+  border-radius: 3px;
+}
+.input-class:focus {
+  border: transparent;
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */
