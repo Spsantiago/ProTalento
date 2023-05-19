@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 4px 16px;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.icons {
+  display: flex;
+  cursor: pointer;
+  border-radius: 100px;
+  height: 48px;
+  width: 48px;
+  align-items: center;
+  justify-content: center;
+  color: rgb(33, 25, 34);
+}
+.icons:hover {
+  outline: 1px auto #d1d1d1;
+  background-color: #d1d1d1;
+}
+
+.botones-nav {
+  display: flex;
+  cursor: pointer;
+  border-radius: 100px;
+  height: 48px;
+  width: 48px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #fff;
+}
+
+#inicio {
+  display: flex;
+  cursor: pointer;
+  border-radius: 100px;
+  height: 48px;
+  min-width: 60px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #000;
+  color: #fff;
+}
+
+main {
+  height: 3303px;
+  width: 756px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+}
+
+.card-image {
+  width: 252px;
+  height: 490px;
+}
+.card-image:hover {
+  cursor: zoom-in;
+  background-color: rgba(0, 0, 119, 0);
+}
+
+/*# sourceMappingURL=style.css.map */
