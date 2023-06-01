@@ -1,0 +1,28 @@
+div {
+    background-color: #a8e3fa;
+    padding: 5px;
+    border: solid #bbbbbb;
+}
+
+.chico {
+    padding: 20px;
+}
+
+.grande {
+    padding: 50px;
+}
+
+.container {
+    border: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 1;
+}
+
+.mediano {
+    padding: 40px;
+    width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
