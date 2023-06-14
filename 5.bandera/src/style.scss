@@ -1,0 +1,45 @@
+div {
+    display: flex;
+}
+
+.flex {
+    width: 80%;
+}
+.blanco {
+    width: 100%;
+    height: 90px;
+    padding: 3px;
+    justify-content: end;
+    align-items: start;
+    border-bottom: solid #002868 25px;
+    border-right: #002868 solid 25px;
+}
+
+.pr {
+    justify-content: start;
+    width: 40%;
+    display: flex;
+}
+.pequeño {
+    width: 85%;
+    height: 85%;
+    padding: 2px;
+    align-items: center;
+    background-color: red;
+}
+.grande {
+    width: 95%;
+    height: 90%;
+    align-items: center;
+    background-color: red;
+}
+
+.pt {
+    border-bottom: none;
+    justify-content: start;
+    align-items: end;
+}
+.pl {
+    border-right: none;
+    justify-content: end;
+}
