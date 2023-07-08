@@ -1,23 +1,13 @@
 
+let COLORES = ['Luz-Roja', 'luz-Amarilla', 'Luz-Verde']
+const semaforoImg = document.querySelector('#semaforo')
 
-const luzRoja=()=>{
-   document.write("<img src='../src/img/luz-roja.png' style='width:200px ;'/>")
-   //document.write("<button onclick={luzAmarilla()}>Clic para luz amarilla</button>")
-   setTimeout(luzAmarilla(),10)
-  
-
-}
-const luzAmarilla=()=>{
-   document.write("<img src='../src/img/luz-amarilla.png' style='width:200px ;'/>")
-  setInterval(luzVerde(),5000)
-  
-   // document.write("<button onclick={luzVerde()}>Clic para luz verde</button>")
+function semaforoLuz() {
+  const color = COLORES.pop()
+  if (!COLORES.length)
+    COLORES = ['Luz-Roja', 'luz-Amarilla', 'Luz-Verde']
+  semaforoImg.src = "../src/img/"+color+".png"
+  return color
 }
 
-const luzVerde=()=>{
-   document.write("<img src='../src/img/luz-verde.png'style='width:200px ;'/>")
-   setInterval(luzRoja(),5000)
-  
-   // document.write("<button onclick={luzRoja()}>Clic para luz roja</button>")
-
-}
+const intervalID = setInterval(semaforoLuz, 3500)
