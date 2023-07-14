@@ -1,0 +1,26 @@
+#nav {
+  background-color: #5136AD;
+  color: #fff;
+}
+
+main {
+  background-color: #242433;
+  color: #fff;
+  min-height: 100vh;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-outline-secondary {
+  width: 60vw;
+}
+
+.form-control:focus {
+  background-color: #000;
+  color: #fff;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -21,21 +21,54 @@ si deseas escoger varios separalos por medio de una coma EJEMPLO : 1,2,3
 
     for (let i = 0; i < arrayCompra.length; i++) {
         let element = parseInt(arrayCompra[i]);
-
-        if (element <= 4) {
-            if (vendedor==='Pedro') {
-                Pedro.push(arrayCompra[i]
-            );
-            }else if(vendedor==='Juana'){
-                Juana.push(arrayCompra[i]);
+        if (typeof element === 'number') {
+            if (element <= 4) {
+                switch (true) {
+                    case element === 1:
+                        element = 200;
+                        break;
+                    case element === 2:
+                        element = 180;
+                        break;
+                    case element === 3:
+                        element = 160;
+                        break;
+                    case element === 4:
+                        element = 150;
+                        break;
+                    default:
+                        break;
+                }
+                if (vendedor === 'Pedro') {
+                    Pedro.push(element);
+                } else if (vendedor === 'Juana') {
+                    Juana.push(element);
+                }
             }
         } else {
             console.log('no es una opcion');
         }
     }
-    console.log(`pedro vendio ${Pedro.length} y Juana vendio ${Juana.length}`)
+
     console.log('compra ' + arrayCompra);
     console.log(`Pedro ${Pedro}`);
     console.log(`Juana ${Juana}`);
+};
 
+const totalVentas = (vendedor) => {
+    let arrayAContar;
+    if (vendedor === 'Pedro') {
+        arrayAContar = Pedro;
+    } else {
+        arrayAContar = Juana;
+    }
+    const suma=0;
+    for (let i = 0; i < arrayAContar.length; i++) {
+        const element = arrayAContar[i];
+        
+        
+    }
+    alert(
+        `el Total de ventas realizadas por ${vendedor} es de ${arrayAContar.length} Produtos y un total en dinero de ${suma}`
+    );
 };
