@@ -12,7 +12,7 @@ const obtenerPassword=()=>{
     let obtener = document.getElementById('password')
     let password= obtener.value
     for (var i = 0; i < cuentas.length; i++) {
-        // Verificar si el nombre de ususario existe
+        // Verificar si el nombre de ususario y la contraseña exixten existe
         if (cuentas[i].password === password && cuentas[i].nombre === usuario) {
           console.log('bien')
           return true; // el usuario si exixte devuelve true
