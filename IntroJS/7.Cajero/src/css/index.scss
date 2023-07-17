@@ -5,7 +5,8 @@
 main{
     background-color: #242433;
     color: #fff;
-    min-height: 100vh;
+    height: 97vh;
+    width: 100%;
 }
 a{
     color:#fff;
@@ -24,5 +25,18 @@ a{
     display: none;
 }
 .form-enable{
-    display: block !important;
+    display: block;
+}
+#Menu{
+    font-size: 15px;
+    width: 200px;
+    padding-left: 10px;
+    
+}
+li{
+    padding-top: 20px;
+}
+#Informacion{
+   height: 100%;
+    width: 90%;
 }
