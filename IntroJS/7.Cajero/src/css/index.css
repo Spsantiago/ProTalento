@@ -6,7 +6,8 @@
 main {
   background-color: #242433;
   color: #fff;
-  height: 97vh;
+  min-height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
@@ -42,9 +43,9 @@ li {
   padding-top: 20px;
 }
 
-#Informacion {
-  height: 100%;
-  width: 90%;
+#informacion {
+  min-height: 100%;
+  min-width: 70vw;
 }
 
 /*# sourceMappingURL=index.css.map */
