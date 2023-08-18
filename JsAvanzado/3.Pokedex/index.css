@@ -1,0 +1,9 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #212529 !important;
+}
+.card{
+    background-color: #2e3337ee !important;
+    color: #fff !important;
+}
