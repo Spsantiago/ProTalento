@@ -56,6 +56,7 @@ URL.then((pokemon) => {
           tabindex="-1"
           aria-labelledby="exampleModalLabel"
           aria-hidden="true"
+          
           >
           <div class="modal-dialog">
           <div class="modal-content">
@@ -72,10 +73,10 @@ URL.then((pokemon) => {
                 </div>
                 
                 <div class="modal-body">
-                <img src='${pokemonUni.sprites.front_default}'/>
-                <img src='${pokemonUni.sprites.back_default}'/>
-                <img src='${pokemonUni.sprites.front_shiny}'/>
-                <img src='${pokemonUni.sprites.back_shiny}'/>
+                <img src='${pokemonUni.sprites.front_default}' style='width: 10rem'/>
+                <img src='${pokemonUni.sprites.back_default}'style='width: 10rem'/>
+                <img src='${pokemonUni.sprites.front_shiny}' style='width: 10rem'/>
+                <img src='${pokemonUni.sprites.back_shiny}' style='width: 10rem'/>
                 
                 <div>
                 <ul>
@@ -93,9 +94,7 @@ URL.then((pokemon) => {
                   >
                   Close
                   </button>
-                  <button type="button" class="btn btn-primary">
-                  Save changes
-                  </button>
+
                   </div>
                   </div>
                   </div>
