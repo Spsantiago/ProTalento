@@ -1,9 +1,14 @@
 body{
     display: flex;
     flex-wrap: wrap;
-    background-color: #212529 !important;
+    background-color: #212529;
 }
 .card{
-    background-color: #2e3337ee !important;
-    color: #fff !important;
+    background-color: #2e3337ee;
+    color: #fff ;
+    
+}
+
+.pokemon{
+    background-color: yellow !important;
 }
